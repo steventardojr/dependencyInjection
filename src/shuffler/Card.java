@@ -21,7 +21,7 @@ public class Card {
 	public String toString() {
 		String card = "";
 		
-		// Set card number
+		// Set string to correct card number
 		switch (this.cardNumber) {
 		case 1:
 			card = "Ace of ";
@@ -67,7 +67,7 @@ public class Card {
 			break;
 		}
 		
-		// Set card suit
+		// Set string to correct card suit
 		switch (this.cardSuit) {
 		case 1:
 			card = card + "Clubs";
